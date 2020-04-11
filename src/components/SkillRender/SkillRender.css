@@ -69,6 +69,7 @@ body {
     background-color: #000000;
     padding: 10px;
     border-radius: 50px;
+    right: auto;
   }
   .zd-fullpage-card {
     width: 100%;

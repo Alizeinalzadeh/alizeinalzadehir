@@ -2,7 +2,7 @@
   "jobs": [
     {
       "href": "",
-      "img": "/img/Yota.svg",
+      "img": "img/Yota.svg",
       "imgAlt": "Yota",
       "jobTitle": "Web Developer",
       "location": "Yota",
