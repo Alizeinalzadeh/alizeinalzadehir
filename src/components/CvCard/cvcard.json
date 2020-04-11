@@ -1,0 +1,63 @@
+{
+  "title": "Ali Zeinalzadeh",
+  "subtitle": "Fron-End Developer",
+  "details": [
+    {
+      "icon": "lni lni-phone",
+      "content": "+989339279298"
+    },
+    {
+      "icon": "lni lni-envelope",
+      "content": "Ali94zeinalzadeh@gmail.com"
+    },
+    {
+      "icon": "lni lni-briefcase",
+      "content": "Web Developer @Chehelso"
+    },
+    {
+      "icon": "lni lni-graduation",
+      "content": "MBA Student @SRBIAU"
+    },
+    {
+      "icon": "lni lni-pin",
+      "content": "Tehran, Iran"
+    }
+  ],
+  "contact": [
+    {
+      "href": "https://linkedin.com/in/alizeinalzadeh",
+      "icon": "socicon-linkedin",
+      "title": "alizeinalzadeh"
+    },
+    {
+      "href": "https://telegram.me/ali_znzd",
+      "icon": "socicon-telegram",
+      "title": "@ali_znzd"
+    },
+    {
+      "href": "https://instagram.com/ali_znzd",
+      "icon": "socicon-instagram",
+      "title": "@ali_znzd"
+    },
+    {
+      "href": "https://twitter.com/ali_znzd",
+      "icon": "socicon-twitter",
+      "title": "@ali_znzd"
+    },
+    {
+      "href": "https://stackoverflow.com/story/alizeinalzadeh",
+      "icon": "socicon-stackoverflow",
+      "title": "alizeinalzadeh"
+    },
+    {
+      "href": "https://github.com/alizeinalzadeh",
+      "icon": "socicon-github",
+      "title": "alizeinalzadeh"
+    },
+    {
+      "href": "skype:+989339279298?call",
+      "icon": "socicon-skype",
+      "title": "+989339279298"
+    }
+  ]
+}

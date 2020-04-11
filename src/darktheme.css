@@ -1,0 +1,469 @@
+.zd-dark-theme .zd-darkmode-button {
+  position: absolute;
+  font-size: 25px;
+  color: #000000;
+  right: 50px;
+  top: 21px;
+  cursor: pointer;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius: 50px;
+}
+.zd-dark-theme .zd-cv-card {
+  background-color: #3d3d3d;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 50px;
+  width: 100%;
+  padding-bottom: 10px;
+  padding: 30px 50px;
+  width: fit-content;
+  position: fixed;
+  text-align: center;
+}
+.zd-dark-theme .zd-cv-card img {
+  border-radius: 90px;
+  width: 120px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+.zd-dark-theme .zd-cv-card h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+.zd-dark-theme .zd-cv-card h3 {
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+.zd-dark-theme .zd-cv-card .zd-cv-card-contact {
+  text-align: left;
+  font-size: 16px;
+  color: #cccccc;
+  margin-top: 0px;
+}
+.zd-dark-theme .zd-cv-card .zd-cv-card-contact i {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.zd-dark-theme .zd-cv-card .zd-cv-card-contact span {
+  margin-bottom: 15px;
+}
+.zd-dark-theme .zd-cv-card .zd-cv-card-social {
+  color: #cccccc;
+}
+.zd-dark-theme .zd-cv-card .zd-cv-card-social a {
+  padding-right: 10px;
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #cccccc;
+}
+.zd-dark-theme .zd-cv-card .zd-cv-card-social a:hover {
+  color: #cccccc;
+}
+.zd-dark-theme .zd-cv-card button {
+  background-color: #cccccc;
+  color: #3d3d3d;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-top: 15px;
+}
+.zd-dark-theme .zd-cv-card button:hover {
+  background-color: #3d3d3d;
+  color: #cccccc;
+  border: 1px solid #cccccc;
+}
+@media (max-width: 575.98px) {
+  .zd-dark-theme .zd-cv-card {
+    height: auto;
+    padding: 30px 50px;
+    position: static;
+    margin: 30px auto 0 auto;
+    width: 100%;
+  }
+  .zd-dark-theme .zd-cv-card img {
+    width: 120px;
+  }
+  .zd-dark-theme .zd-cv-card h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact {
+    font-size: 14px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact i {
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact span {
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-social a {
+    padding-right: 8px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card button {
+    margin-top: 10px;
+  }
+}
+.zd-dark-theme .zd-cards {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  text-align: center;
+}
+.zd-dark-theme .zd-cards .cards-list::-webkit-scrollbar {
+  display: none;
+}
+.zd-dark-theme .zd-cards .zd-cards-items {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  border-radius: 15px;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin-left: 60px;
+  width: 170px;
+  text-align: center;
+}
+.zd-dark-theme .zd-cards .zd-cards-items:first-child {
+  margin-left: 0;
+}
+.zd-dark-theme .zd-cards .zd-cards-items a {
+  text-decoration: none;
+}
+.zd-dark-theme .zd-cards .zd-cards-items span,
+.zd-dark-theme .zd-cards .zd-cards-items i {
+  color: #b5d0d1;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.zd-dark-theme .zd-cards .zd-cards-items i {
+  margin-right: 5px;
+}
+.zd-dark-theme .zd-cards .zd-cards-items img {
+  border: 1px solid #cccccc;
+  border-radius: 90px;
+  width: 90px;
+  margin-bottom: 10px;
+}
+.zd-dark-theme .zd-cards .zd-cards-items h4 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.zd-dark-theme .zd-cards .zd-cards-items button {
+  margin-top: 20px;
+  border: 1px solid #b5d0d1;
+  border-radius: 90px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #cccccc;
+}
+.zd-dark-theme .zd-cards .zd-cards-items button:hover {
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+  color: #3d3d3d;
+}
+.zd-dark-theme .zd-menu-container {
+  z-index: 99;
+  left: 11%;
+}
+.zd-dark-theme .zd-story {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.zd-dark-theme .zd-story .story-list-menu::-webkit-scrollbar {
+  display: none;
+}
+.zd-dark-theme .zd-story .zd-menu-items {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  background-color: #3d3d3d;
+  border-radius: 45px;
+  height: 50px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.zd-dark-theme .zd-story .zd-menu-items:first-child {
+  margin-left: 0px;
+}
+.zd-dark-theme .zd-story .zd-menu-items:hover {
+  border: 1px solid #cccccc;
+}
+.zd-dark-theme .zd-story .zd-menu-items a {
+  text-decoration: none;
+}
+.zd-dark-theme .zd-story .zd-item-menu {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  background-color: #3d3d3d;
+  border-radius: 45px;
+  height: 50px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.zd-dark-theme .zd-story .zd-item-menu:first-child {
+  margin-left: 0px;
+}
+.zd-dark-theme .zd-story .zd-item-menu:hover {
+  border: 1px solid #cccccc;
+}
+.zd-dark-theme .zd-story .zd-item-menu a {
+  text-decoration: none;
+}
+.zd-dark-theme .zd-story .zd-icons {
+  border: 1px solid #cccccc;
+  color: #cccccc;
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+  width: 42px;
+  height: 42px;
+  left: -1px;
+  font-size: 21px;
+}
+.zd-dark-theme .zd-story .zd-menu-title {
+  font-size: 15px;
+  color: #cccccc;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  vertical-align: -webkit-baseline-middle;
+  margin-top: -10px;
+}
+.zd-dark-theme .zd-container {
+  background-color: #3d3d3d;
+  height: 500px;
+  color: #cccccc;
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+.zd-dark-theme .zd-container h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.zd-dark-theme .zd-container p {
+  font-size: 18px;
+  text-align: justify;
+}
+.zd-dark-theme .zd-skills-list h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.zd-dark-theme .zd-skills-list span {
+  padding: 5px 10px;
+  border: 1px solid #b5d0d1;
+  border-radius: 90px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+@media (max-width: 575.98px) {
+  .zd-dark-theme .zd-cv-card {
+    height: auto;
+    padding: 30px 50px;
+    position: static;
+    margin: 30px auto 0 auto;
+    width: 100%;
+  }
+  .zd-dark-theme .zd-cv-card img {
+    width: 120px;
+  }
+  .zd-dark-theme .zd-cv-card h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact {
+    font-size: 14px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact i {
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact span {
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-social a {
+    padding-right: 8px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card button {
+    margin-top: 10px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu {
+    margin-left: 20px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:first-child {
+    margin-left: 0px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:last-child {
+    margin-right: 15px;
+  }
+  .zd-dark-theme .zd-container {
+    height: 100%;
+    padding: 40px;
+    margin: 20px auto;
+  }
+  .zd-dark-theme .zd-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .zd-dark-theme .zd-container p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  .zd-dark-theme .zd-cv-card {
+    height: auto;
+    padding: 30px 50px;
+    position: static;
+    margin: 30px auto 0 auto;
+  }
+  .zd-dark-theme .zd-cv-card img {
+    width: 120px;
+  }
+  .zd-dark-theme .zd-cv-card h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact {
+    font-size: 14px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact i {
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact span {
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-social a {
+    padding-right: 8px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card button {
+    margin-top: 10px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu {
+    margin-left: 20px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:first-child {
+    margin-left: 0px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:last-child {
+    margin-right: 15px;
+  }
+  .zd-dark-theme .zd-container {
+    height: 100%;
+    padding: 40px;
+    margin: 20px auto;
+  }
+  .zd-dark-theme .zd-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .zd-dark-theme .zd-container p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  .zd-dark-theme .zd-cv-card {
+    height: auto;
+    padding: 30px 50px;
+    position: static;
+    margin: 30px auto 0 auto;
+    text-align: center;
+  }
+  .zd-dark-theme .zd-cv-card img {
+    width: 120px;
+  }
+  .zd-dark-theme .zd-cv-card h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact {
+    font-size: 14px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact i {
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-contact span {
+    margin-bottom: 10px;
+  }
+  .zd-dark-theme .zd-cv-card .zd-cv-card-social a {
+    padding-right: 8px;
+    margin-bottom: 20px;
+  }
+  .zd-dark-theme .zd-cv-card button {
+    margin-top: 10px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu {
+    margin-left: 20px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:first-child {
+    margin-left: 0px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:last-child {
+    margin-right: 15px;
+  }
+  .zd-dark-theme .zd-container {
+    height: 100%;
+    padding: 40px;
+    margin: 20px auto;
+  }
+  .zd-dark-theme .zd-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .zd-dark-theme .zd-container p {
+    font-size: 16px;
+  }
+}

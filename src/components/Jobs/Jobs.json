@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "href": "",
+      "img": "/img/Yota.svg",
+      "imgAlt": "Yota",
+      "jobTitle": "Web Developer",
+      "location": "Yota",
+      "startDate": "Oct 2017",
+      "endDate": "Now",
+      "moreLink": ""
+    },
+    {
+      "href": "",
+      "img": "img/Goldtag.svg",
+      "imgAlt": "Goldtag",
+      "jobTitle": "Web Developer",
+      "location": "Goldtag",
+      "startDate": "Sep 2017",
+      "endDate": "Oct 2017",
+      "moreLink": ""
+    },
+    {
+      "href": "",
+      "img": "img/NET.svg",
+      "imgAlt": "NET.co",
+      "jobTitle": "Site Supervisor",
+      "location": "NET.co",
+      "startDate": "Feb 2013",
+      "endDate": "Jan 2014",
+      "moreLink": ""
+    }
+  ]
+}

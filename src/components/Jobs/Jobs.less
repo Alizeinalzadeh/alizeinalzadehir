@@ -1,0 +1,66 @@
+@import "./../../../src/variables.less";
+
+.zd-cards {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  text-align: center;
+
+  .cards-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .zd-cards-items {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 15px;
+    border: 1px solid @primary-color;
+    padding: 20px;
+    margin-left: 60px;
+    width: 170px;
+    text-align: center;
+    &:first-child {
+      margin-left: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    span,
+    i {
+      color: @primary-color-alt;
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+    i{
+      margin-right: 5px;
+    }
+
+    img {
+      border: 1px solid @primary-color;
+      border-radius: 90px;
+      width: 90px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 20px;
+      border: 1px solid @primary-color-alt;
+      border-radius: 90px;
+      background-color: transparent;
+      padding: 5px 10px;
+      color: @primary-color;
+      &:hover {
+        background-color: @secondary-color;
+        border: 1px solid @secondary-color;
+        color: @background-color;
+      }
+    }
+  }
+}

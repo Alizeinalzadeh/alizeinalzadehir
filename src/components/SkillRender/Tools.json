@@ -1,0 +1,33 @@
+{
+  "title": "Tools & Technologies",
+  "skills": [
+    {
+      "title": "HTML"
+    },
+    {
+      "title": "CSS"
+    },
+    {
+      "title": "Javascript"
+    },
+    {
+      "title": "React.js"
+    },
+    {
+      "title": "JQuery"
+    },
+    {
+      "title": "Php"
+    },
+    {
+      "title": "Bootstrap"
+    },
+    {
+      "title": "Magento"
+    },
+    {
+      "title": "Git"
+    }
+  ]
+  
+}

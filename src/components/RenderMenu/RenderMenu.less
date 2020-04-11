@@ -1,0 +1,124 @@
+@import "./../../../src/variables.less";
+.zd-menu-container {
+  // position: fixed;
+  z-index: 99;
+  left: 11%;
+}
+.zd-story {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+
+  .story-list-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .zd-menu-items {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border-radius: 45px;
+    height: 50px;
+    margin-top: 5px;
+    border: 1px solid @primary-color;
+    margin-left: 50px;
+    cursor: pointer;
+    &:first-child {
+      margin-left: 0px;
+    }
+    &:hover {
+      border: 1px solid @primary-color;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .zd-item-menu {
+    .zd-menu-items();
+  }
+
+  .zd-icons {
+    border: 1px solid @primary-color;
+    color: @primary-color;
+    border-radius: 90px;
+    padding: 10px;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+    width: 42px;
+    height: 42px;
+    left: -1px;
+    font-size: 21px;
+  }
+
+  .zd-menu-title {
+    font-size: 15px;
+    color: @primary-color;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: -10px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 575.98px) {
+  .zd-story {
+    margin-left: 80px;
+    .zd-item-menu {
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0px;
+      }
+      &:last-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .zd-story {
+    .zd-item-menu {
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0px;
+      }
+      &:last-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .zd-story {
+    .zd-item-menu {
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0px;
+      }
+      &:last-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}

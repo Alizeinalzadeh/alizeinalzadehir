@@ -1,0 +1,26 @@
+{
+  "education": [
+    {
+      "href": "",
+      "img": "/img/SRBIAU.svg",
+      "imgAlt": "SRBIAU",
+      "majorTitle": "MBA",
+      "location": "SRBIAU",
+      "degree":"M.SC",
+      "startDate": "2017",
+      "endDate": "Now",
+      "moreLink": ""
+    },
+    {
+      "href": "",
+      "img": "/img/UT.svg",
+      "imgAlt": "Tehran University",
+      "majorTitle": "Mine Engineering",
+      "location": "Tehran University",
+      "degree":"B.SC",
+      "startDate": "2012",
+      "endDate": "2017",
+      "moreLink": ""
+    }
+  ]
+}

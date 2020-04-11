@@ -1,0 +1,519 @@
+.zd-dark-theme {
+  @primary-color: #cccccc;
+  @primary-color-alt: #b5d0d1;
+  @secondary-color: #cccccc;
+  @border-radius: 10px;
+  @background-color: #3d3d3d;
+  @body-color: #000000;
+
+  .zd-darkmode-button {
+    position: absolute;
+    font-size: 25px;
+    color: @body-color;
+    right: 50px;
+    top: 21px;
+    cursor: pointer;
+    background-color: @primary-color;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .zd-cv-card {
+    background-color: @background-color;
+    height: 500px;
+    border-radius: @border-radius;
+    margin-left: 50px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding: 30px 50px;
+    width: fit-content;
+    position: fixed;
+    text-align: center;
+    // margin-top: 40px;
+    img {
+      border-radius: 90px;
+      width: 120px;
+      border: 1px solid @primary-color;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: @primary-color;
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: normal;
+      margin-bottom: 30px;
+      color: @primary-color;
+    }
+
+    .zd-cv-card-contact {
+      text-align: left;
+      font-size: 16px;
+      color: @primary-color;
+      margin-top: 0px;
+      i {
+        padding-right: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+      span {
+        margin-bottom: 15px;
+      }
+    }
+
+    .zd-cv-card-social {
+      color: @primary-color;
+      a {
+        padding-right: 10px;
+        margin-bottom: 30px;
+        border: 1px solid transparent;
+        text-decoration: none;
+        color: @primary-color;
+        &:hover {
+          color: @secondary-color;
+        }
+      }
+    }
+    button {
+      background-color: @secondary-color;
+      color: @background-color;
+      padding: 10px;
+      border-radius: @border-radius;
+      border: 1px solid transparent;
+      margin-top: 15px;
+      &:hover {
+        background-color: @background-color;
+        color: @secondary-color;
+        border: 1px solid @secondary-color;
+      }
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 575.98px) {
+    .zd-cv-card {
+      height: auto;
+      padding: 30px 50px;
+      position: static;
+      margin: 30px auto 0 auto;
+      width: 100%;
+
+      img {
+        width: 120px;
+      }
+
+      h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .zd-cv-card-contact {
+        font-size: 14px;
+        i {
+          padding-right: 8px;
+          padding-bottom: 8px;
+        }
+        span {
+          margin-bottom: 10px;
+        }
+      }
+
+      .zd-cv-card-social {
+        a {
+          padding-right: 8px;
+          margin-bottom: 20px;
+        }
+      }
+      button {
+        margin-top: 10px;
+      }
+    }
+  }
+  .zd-cards {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    text-align: center;
+
+    .cards-list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .zd-cards-items {
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      border-radius: 15px;
+      border: 1px solid @primary-color;
+      padding: 20px;
+      margin-left: 60px;
+      width: 170px;
+      text-align: center;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      span,
+      i {
+        color: @primary-color-alt;
+        font-size: 13px;
+        margin-bottom: 5px;
+      }
+      i {
+        margin-right: 5px;
+      }
+
+      img {
+        border: 1px solid @primary-color;
+        border-radius: 90px;
+        width: 90px;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      button {
+        margin-top: 20px;
+        border: 1px solid @primary-color-alt;
+        border-radius: 90px;
+        background-color: transparent;
+        padding: 5px 10px;
+        color: @primary-color;
+        &:hover {
+          background-color: @secondary-color;
+          border: 1px solid @secondary-color;
+          color: @background-color;
+        }
+      }
+    }
+  }
+  .zd-menu-container {
+    // position: fixed;
+    z-index: 99;
+    left: 11%;
+  }
+  .zd-story {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    // margin-bottom: 30px;
+    // position: absolute;
+
+    .story-list-menu::-webkit-scrollbar {
+      display: none;
+    }
+
+    .zd-menu-items {
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      background-color: @background-color;
+      border-radius: 45px;
+      height: 50px;
+      margin-top: 5px;
+      border: 1px solid @primary-color;
+      margin-left: 50px;
+      cursor: pointer;
+      &:first-child {
+        margin-left: 0px;
+      }
+      &:hover {
+        border: 1px solid @primary-color;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .zd-item-menu {
+      .zd-menu-items();
+    }
+
+    .zd-icons {
+      border: 1px solid @primary-color;
+      color: @primary-color;
+      border-radius: 90px;
+      padding: 10px;
+      font-size: 15px;
+      display: inline-block;
+      margin-left: 5px;
+      position: relative;
+      top: 3px;
+      width: 42px;
+      height: 42px;
+      left: -1px;
+      font-size: 21px;
+    }
+
+    .zd-menu-title {
+      font-size: 15px;
+      color: @primary-color;
+      padding-left: 10px;
+      padding-right: 20px;
+      text-decoration: none;
+      vertical-align: -webkit-baseline-middle;
+      margin-top: -10px;
+    }
+  }
+  .zd-container {
+    background-color: @background-color;
+    height: 500px;
+    color: @primary-color;
+    padding: 50px;
+    // margin-right: 50px;
+    border-radius: @border-radius;
+    width: 100%;
+    margin: 0 auto;
+    h2 {
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+  }
+  .zd-skills-list {
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      margin-top: 30px;
+    }
+    span {
+      padding: 5px 10px;
+      border: 1px solid @primary-color-alt;
+      border-radius: 90px;
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+  }
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 575.98px) {
+    .zd-cv-card {
+      height: auto;
+      padding: 30px 50px;
+      position: static;
+      margin: 30px auto 0 auto;
+      width: 100%;
+
+      img {
+        width: 120px;
+      }
+
+      h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .zd-cv-card-contact {
+        font-size: 14px;
+        i {
+          padding-right: 8px;
+          padding-bottom: 8px;
+        }
+        span {
+          margin-bottom: 10px;
+        }
+      }
+
+      .zd-cv-card-social {
+        a {
+          padding-right: 8px;
+          margin-bottom: 20px;
+        }
+      }
+      button {
+        margin-top: 10px;
+      }
+    }
+    .zd-story {
+      .zd-item-menu {
+        margin-left: 20px;
+        &:first-child {
+          margin-left: 0px;
+        }
+        &:last-child {
+          margin-right: 15px;
+        }
+      }
+    }
+    .zd-container {
+      height: 100%;
+      padding: 40px;
+      margin: 20px auto;
+      h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  // Small devices (landscape phones, less than 768px)
+  @media (max-width: 767.98px) {
+    .zd-cv-card {
+      height: auto;
+      padding: 30px 50px;
+      position: static;
+      margin: 30px auto 0 auto;
+      img {
+        width: 120px;
+      }
+
+      h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .zd-cv-card-contact {
+        font-size: 14px;
+        i {
+          padding-right: 8px;
+          padding-bottom: 8px;
+        }
+        span {
+          margin-bottom: 10px;
+        }
+      }
+
+      .zd-cv-card-social {
+        a {
+          padding-right: 8px;
+          margin-bottom: 20px;
+        }
+      }
+      button {
+        margin-top: 10px;
+      }
+    }
+    .zd-story {
+      .zd-item-menu {
+        margin-left: 20px;
+        &:first-child {
+          margin-left: 0px;
+        }
+        &:last-child {
+          margin-right: 15px;
+        }
+      }
+    }
+    .zd-container {
+      height: 100%;
+      padding: 40px;
+      margin: 20px auto;
+      h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    .zd-cv-card {
+      height: auto;
+      padding: 30px 50px;
+      position: static;
+      margin: 30px auto 0 auto;
+      text-align: center;
+
+      img {
+        width: 120px;
+      }
+
+      h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .zd-cv-card-contact {
+        font-size: 14px;
+        i {
+          padding-right: 8px;
+          padding-bottom: 8px;
+        }
+        span {
+          margin-bottom: 10px;
+        }
+      }
+
+      .zd-cv-card-social {
+        a {
+          padding-right: 8px;
+          margin-bottom: 20px;
+        }
+      }
+      button {
+        margin-top: 10px;
+      }
+    }
+    .zd-story {
+      .zd-item-menu {
+        margin-left: 20px;
+        &:first-child {
+          margin-left: 0px;
+        }
+        &:last-child {
+          margin-right: 15px;
+        }
+      }
+    }
+    .zd-container {
+      height: 100%;
+      padding: 40px;
+      margin: 20px auto;
+      h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  // Large devices (desktops, less than 1200px)
+  @media (max-width: 1199.98px) {
+  }
+}

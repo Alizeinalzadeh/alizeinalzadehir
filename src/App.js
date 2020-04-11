@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./grid.min.css";
+import "./reset.min.css";
+import "./darktheme.css";
+import Header from "./sections/Header";
+import CvCard from "./components/CvCard/CvCard";
+import About from "./sections/About";
+import Skills from "./sections/Skills";
+import Jobs from "./sections/Jobs";
+import Educations from "./sections/Educations";
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState("zd-light-theme");
+  const changeTheme = () => {
+    setTheme(() => {
+      if (document.getElementById("zd-theme").className === "zd-light-theme") {
+        document.getElementById("zd-theme").className = "zd-dark-theme";
+      } else document.getElementById("zd-theme").className = "zd-light-theme";
+    });
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="zd-theme" className={theme}>
+        <span className="zd-darkmode-button" onClick={changeTheme}>
+          <i class="lni lni-night"></i>
+        </span>
+        <Header />
+        <div className="row">
+          <div className="col-12 col-lg-4 zd-fullpage-card">
+            <CvCard />
+          </div>
+          <div className="col-12 col-lg-8">
+            <About />
+            <Skills />
+            <Jobs />
+            <Educations />
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
