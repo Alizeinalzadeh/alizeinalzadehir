@@ -6,7 +6,7 @@ import "./CvCard.css";
 const CvCard = () => {
   return (
     <div className="zd-cv-card">
-      <img src="img/Alizeinalzadeh.jpg" alt="Ali Zeinalzadeh" srcset="" />
+      <img src="img/Alizeinalzadeh.jpg" alt="Ali Zeinalzadeh"/>
       <h1>{cvcard.title}</h1>
       <h3>{cvcard.subtitle}</h3>
       <div className="zd-cv-card-contact">
@@ -26,7 +26,7 @@ const CvCard = () => {
           );
         })}
       </div>
-      <button>Download Full Resume</button>
+      <a href="Ali_Zeinalzadeh_09339279298.pdf" download><button>Download Full Resume</button></a> 
     </div>
   );
 };

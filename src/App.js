@@ -8,6 +8,11 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Jobs from "./sections/Jobs";
 import Educations from "./sections/Educations";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 const App = () => {
   const [theme, setTheme] = useState("zd-light-theme");
@@ -20,25 +25,44 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <div id="zd-theme" className={theme}>
-        <span className="zd-darkmode-button" onClick={changeTheme}>
-          <i class="lni lni-night"></i>
-        </span>
-        <Header />
-        <div className="row">
-          <div className="col-12 col-lg-4 zd-fullpage-card">
-            <CvCard />
-          </div>
-          <div className="col-12 col-lg-8">
-            <About />
+    <Router>
+      <div className="App">
+        <div id="zd-theme" className={theme}>
+          <span className="zd-darkmode-button" onClick={changeTheme}>
+            <i className="lni lni-night"></i>
+          </span>
+          <Header />
+          <div className="row">
+            <div className="col-12 col-lg-4 zd-fullpage-card d-none d-lg-block">
+              <CvCard />
+            </div>
+            <div className="col-12 col-lg-8">
+              <Switch>
+              <Route exact path="/" component={About}>
+                {/* <About /> */}
+              </Route>
+              <Route path="/about" component={About}>
+                {/* <About /> */}
+              </Route>
+              <Route path="/skills" component={Skills}>
+                {/* <Skills /> */}
+              </Route>
+              <Route path="/jobs" component={Jobs}>
+                {/* <Jobs /> */}
+              </Route>
+              <Route path="/education" component={Educations}>
+                {/* <Educations /> */}
+              </Route>
+              </Switch>
+              {/* <About />
             <Skills />
             <Jobs />
-            <Educations />
+            <Educations /> */}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Router>
   );
 };
 

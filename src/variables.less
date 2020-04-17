@@ -18,7 +18,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 
@@ -66,6 +66,7 @@ body {
   font-size: 25px;
   color: @body-color;
   right: 50px;
+  left: auto;
   top: 21px;
   cursor: pointer;
   background-color: @primary-color;
@@ -75,6 +76,7 @@ body {
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 575.98px) {
+  
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -83,6 +85,9 @@ body {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  body{
+    height: 100vh;
+  }
   .zd-darkmode-button {
     position: absolute;
     font-size: 25px;
