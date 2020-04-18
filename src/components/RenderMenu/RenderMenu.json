@@ -2,33 +2,27 @@
     "menu":[
         {
             "id":"menuabout",
-            "href":"#about",
+            "href":"about",
             "icon":"lni lni-user",
             "title":"ABOUT"
         },
         {
             "id":"menuskills",
-            "href":"#skills",
+            "href":"skills",
             "icon":"lni lni-code",
             "title":"SKILLS"
         },
         {
             "id":"menujobs",
-            "href":"#jobs",
+            "href":"jobs",
             "icon":"lni lni-briefcase",
             "title":"JOBS"
         },
         {
             "id":"menueducation",
-            "href":"#education",
+            "href":"education",
             "icon":"lni lni-graduation",
             "title":"EDUCATION"
-        },
-        {
-            "id":"menuprojects",
-            "href":"#projects",
-            "icon":"lni lni-pencil",
-            "title":"PROJECTS"
         }
     ]
 }

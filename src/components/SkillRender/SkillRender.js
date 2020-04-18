@@ -6,8 +6,8 @@ import Industry from "./Industry.json";
 
 const SkillRender = () => {
   return (
-    <div class="znzd-skills">
-      <div class="zd-skills-list">
+    <div className="znzd-skills">
+      <div className="zd-skills-list">
         <h3>Tools & Technology</h3>
         <div>
           {Tools.skills.map((item) => {

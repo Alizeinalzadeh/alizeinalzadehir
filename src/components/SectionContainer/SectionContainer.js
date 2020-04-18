@@ -7,7 +7,7 @@ const SectionContainer = (props) => {
       <div className="zd-container">
         <h2>{props.title}</h2>
         <div className="zd-center-content">
-          <p>{props.children}</p>
+          {props.children}
         </div>
       </div>
     </div>

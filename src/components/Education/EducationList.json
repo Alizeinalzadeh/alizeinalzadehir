@@ -6,10 +6,13 @@
       "imgAlt": "SRBIAU",
       "majorTitle": "MBA",
       "location": "SRBIAU",
-      "degree":"M.SC",
+      "degree": "M.SC",
       "startDate": "2017",
       "endDate": "Now",
-      "moreLink": ""
+      "moreLink": "",
+      "responsibilities": [
+        "The effect of web design on eCommerce customers loyalty considering the mediating role of customer satisfaction and customer trust."
+      ]
     },
     {
       "href": "",
@@ -17,10 +20,13 @@
       "imgAlt": "Tehran University",
       "majorTitle": "Mine Engineering",
       "location": "Tehran University",
-      "degree":"B.SC",
+      "degree": "B.SC",
       "startDate": "2012",
       "endDate": "2017",
-      "moreLink": ""
+      "moreLink": "",
+      "responsibilities": [
+        "Develop Software for Determination of Open Pit to Underground Mining Transition With (C#)"
+      ]
     }
   ]
 }

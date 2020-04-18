@@ -16,6 +16,7 @@
     background-color: @primary-color;
     padding: 10px;
     border-radius: 50px;
+    left: auto;
   }
 
   .zd-cv-card {
@@ -313,6 +314,18 @@
   }
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 575.98px) {
+    .zd-story {
+      margin-left: 80px;
+      .zd-item-menu {
+        margin-left: 20px;
+        &:first-child {
+          margin-left: 0px;
+        }
+        &:last-child {
+          margin-right: 15px;
+        }
+      }
+    }
     .zd-cv-card {
       height: auto;
       padding: 30px 50px;
@@ -447,6 +460,11 @@
 
   // Medium devices (tablets, less than 992px)
   @media (max-width: 991.98px) {
+    .zd-darkmode-button {
+      left: 20px;
+      top: 22px;
+      right: auto;
+    }
     .zd-cv-card {
       height: auto;
       padding: 30px 50px;

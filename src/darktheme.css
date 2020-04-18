@@ -8,6 +8,7 @@
   background-color: #cccccc;
   padding: 10px;
   border-radius: 50px;
+  left: auto;
 }
 .zd-dark-theme .zd-cv-card {
   background-color: #3d3d3d;
@@ -295,6 +296,18 @@
   margin-right: 5px;
 }
 @media (max-width: 575.98px) {
+  .zd-dark-theme .zd-story {
+    margin-left: 80px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu {
+    margin-left: 20px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:first-child {
+    margin-left: 0px;
+  }
+  .zd-dark-theme .zd-story .zd-item-menu:last-child {
+    margin-right: 15px;
+  }
   .zd-dark-theme .zd-cv-card {
     height: auto;
     padding: 30px 50px;
@@ -410,6 +423,11 @@
   }
 }
 @media (max-width: 991.98px) {
+  .zd-dark-theme .zd-darkmode-button {
+    left: 20px;
+    top: 22px;
+    right: auto;
+  }
   .zd-dark-theme .zd-cv-card {
     height: auto;
     padding: 30px 50px;

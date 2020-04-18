@@ -8,7 +8,13 @@
       "location": "Yota",
       "startDate": "Oct 2017",
       "endDate": "Now",
-      "moreLink": ""
+      "moreLink": "",
+      "responsibilities": [
+        "Develop Front-End for Marketplace E-Commerce Website With Magento using HTML, CSS, Javascript, Jquery, Bootstrap and ...",
+        "Develop Landing Pages for Marketplace Section in Website (https://chehelso.com).",
+        "Develop Simple Custom Extensions for Magento 2 Such as: Persian Date Plugin, Delivery Time Slot, Category List View and ...",
+        "Develop Redesign of the Main Website"
+      ]
     },
     {
       "href": "",
@@ -18,7 +24,10 @@
       "location": "Goldtag",
       "startDate": "Sep 2017",
       "endDate": "Oct 2017",
-      "moreLink": ""
+      "moreLink": "",
+      "responsibilities": [
+        "Learn and get familiar with: HTML, CSS, Bootstrap, Javascript, Node JS, PHP, Silex Micro Framework and Twig Template Engine."
+      ]
     },
     {
       "href": "",
@@ -28,7 +37,11 @@
       "location": "NET.co",
       "startDate": "Feb 2013",
       "endDate": "Jan 2014",
-      "moreLink": ""
+      "moreLink": "",
+      "responsibilities": [
+        "Visit and Control about 200 MTN sites and Create Documentation about them",
+        "Making Reports of Equipment which MTN Sites Needed to Upgrade They Network to 3G and 4G (LTE)."
+      ]
     }
   ]
 }
