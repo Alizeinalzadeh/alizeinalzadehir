@@ -2,12 +2,27 @@
   "jobs": [
     {
       "href": "",
+      "img": "img/chapagha.jpeg",
+      "imgAlt": "ChapAgha",
+      "jobTitle": "Frontend Developer",
+      "location": "Chapagha",
+      "startDate": "Apr 2020",
+      "endDate": "Now",
+      "moreLink": "",
+      "responsibilities": [
+        "Developing Chapagha redesigned website from scratch using HTML, CSS, Javascript and ...",
+        "Designing and Developing Chapagha new service (Cloud Printing) using React",
+        "Developing new version of Chapagha online design service using React"
+      ]
+    },
+    {
+      "href": "",
       "img": "img/Yota.svg",
       "imgAlt": "Yota",
       "jobTitle": "Web Developer",
       "location": "Yota",
       "startDate": "Oct 2017",
-      "endDate": "Now",
+      "endDate": "Apr 2020",
       "moreLink": "",
       "responsibilities": [
         "Develop Front-End for Marketplace E-Commerce Website With Magento using HTML, CSS, Javascript, Jquery, Bootstrap and ...",
